@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+/*Section*/
+a{
+    text-decoration: none;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    background-size: cover;
+    font-family: 'Mulish', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+/*Login*/
+
+.login-page {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*formulário de login*/
+
+.form-login {
+    padding: 40px 35px;
+    border-radius: 6px 6px 6px 6px;
+}
+
+.form-login form {
+    box-sizing: border-box;
+}
+
+.form-itemmmm {
+    position: relative;
+    margin: 25px 0;
+    color: #000;
+}
+
+.cor{
+    background-color: #B5BF65;
+}
+
+.inputText {
+    font-size: 13px;
+    width: 100%;
+    height: 35px;
+    background-color: #B5BF65;
+    border: none;
+    border-bottom: 1px solid #90A641;
+    outline: none;
+    transition: 0.2s ease all;
+    color: #000;
+}
+
+.inputText:focus {
+    border-bottom: 1px solid #000;
+
+}
+
+.floating-label {
+    position: absolute;
+    pointer-events: none;
+    left: 0;
+    bottom: 2px;
+    transition: 0.2s ease all;
+
+}
+
+input:focus~.floating-label,
+input:not(:focus):valid~.floating-label {
+    color: #000;
+    top: -10px;
+    left: 0;
+    font-size: 0.82rem;
+    opacity: 1;
+    transition: 0.3s ease all;
+
+}
+
+.style-button {
+    border: none;
+    background: rgba(85, 172, 230, 0.95);
+}
+
+.style-button:hover {
+    background-color: #2f95e7;
+}
+
+.style-button:active {
+    background-color: #3794e0 !important;
+    border:none !important;
+}
+
+.style-button2 {
+    border: none;
+    background: rgba(230, 102, 85, 0.95);
+}
+
+.style-button2:hover {
+    background-color: #eb322c;
+}
+
+.style-button2:active {
+    background-color: #e44225 !important;
+    border:none !important;
+}
+
+.links-form {
+    margin-top: 15px;
+}
+
+.links-form a {
+    color: #FFF;
+    font-size: 16px;
+}
+
+.links-form p {
+    color: #aaa;
+    font-size: 13px;
+}
+
+.link-ab{
+    color: #FFF;
+}
+
+.link-ab:hover{
+    color: #FFF;
+}
+
+@media screen and (min-width: 990px) {
+
+    .dashboard {
+        border-radius: 6px 0 0 6px;
+        display: flex;
+        align-items: center;
+    }
+
+    .position-login {
+        width: 90%;
+    }
+
+    .form-login {
+        border-radius: 0 6px 6px 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .login-page {
+        min-height: 70vh;
+    }
+
+}

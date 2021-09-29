@@ -1,0 +1,16 @@
+
+.bg-color {
+    background-color: #90A641;
+}
+
+.btn-color {
+    background-color: #BFAF80;
+}
+
+.btn-outline-success, .fa{
+    color: #fff;
+}
+
+.btn {
+  border: none;
+}

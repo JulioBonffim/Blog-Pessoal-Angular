@@ -1,0 +1,22 @@
+.card-img-top{
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+}
+
+.card{
+    justify-items: center;
+    justify-content: center;
+    margin: 20px;
+    width: 18rem;
+    border-color: green;
+}
+
+.titulo{
+    text-align: center;
+    font-family:fantasy;
+}
+
+.bg{
+    background-color: rgb(178, 247, 178);
+}
